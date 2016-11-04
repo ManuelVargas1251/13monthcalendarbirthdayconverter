@@ -7,5 +7,6 @@ Using Dave Gorman's theory of the 13 Month Calendar, this will convert your 12 m
 		
 There is also the [International Fixed Calendar](https://en.wikipedia.org/wiki/International_Fixed_Calendar) system which is very similar to this system.
 
+[Try it here](http://manuelvargas.me/13monthcalendarbirthdayconverter/)
 
 #:sunny: :thumbsup:
