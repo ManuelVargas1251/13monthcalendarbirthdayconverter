@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	    <meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="chrome=1">
+		<link rel="stylesheet" href="style.css">
+		<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+		<title>Birthday Converter</title>
+	</head>
+	<body>
+
+		<h1>Birthday Converter</h1>
+		<p>Using Dave Gorman's theory of the 13 Month Calendar, this will convert your 12 month birthday into the 13 month calendar. Accounts for leap years, skip centuries, unless 400 rule, </p>
+		
+		There is also the <a href="https://en.wikipedia.org/wiki/International_Fixed_Calendar">International Fixed Calendar</a> system which is very similar to this system.
+		<p>Click the button to get the date of the date field.</p>
+		
+		<!--Use nicer data picker-->
+		<input type="date" id="myDate" value="1971-03-02"><p>
+
+		<button onclick="convert()">Convert</button>
+		<hr>
+		<p>Day of the Year: <p id="days"></p>
+		
+		<p id="seven"></p>
+
+		<p id="six"></p>
+		
+	
+	</body>
+	
+	<script src="cnvrt.js"></script>
+	
+</html>
+
