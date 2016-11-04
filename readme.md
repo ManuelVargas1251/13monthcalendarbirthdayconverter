@@ -1,3 +1,6 @@
+![Programming language](https://img.shields.io/badge/Language-JavaScript-black.svg)
+![Status](https://img.shields.io/badge/Build-Passing-green.svg)
+![Version](https://img.shields.io/badge/Version-v1-blue.svg)
 # 13 Month Calendar - Birthday Converter
 
 Using Dave Gorman's theory of the 13 Month Calendar, this will convert your 12 month birthday into the 13 month calendar. Accounts for leap years, skip centuries, unless 400 rule, </p>
