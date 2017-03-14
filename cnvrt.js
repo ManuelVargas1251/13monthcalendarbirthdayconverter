@@ -31,15 +31,43 @@ function convert() {
 	//convert to 13 month
 	newmonth = (numofdays/28)+1;
 	newmonth = parseInt(newmonth);
-	document.getElementById("seven").innerHTML = 'new month: '+newmonth;
 	
-	newday=numofdays%28
-	document.getElementById("six").innerHTML = 'new day: '+newday;
-	
-	//month 1
-	if(numofdays<=29){
-		
+	//case conversion to date
+	switch(newmonth){
+		case 1: document.getElementById("seven").innerHTML = 'March ';
+        break;
+		case 2: document.getElementById("seven").innerHTML = 'April ';
+        break;
+		case 3: document.getElementById("seven").innerHTML = 'May ';
+        break;
+		case 4: document.getElementById("seven").innerHTML = 'June ';
+        break;
+		case 5: document.getElementById("seven").innerHTML = 'Quitilis ';
+        break;
+		case 6: document.getElementById("seven").innerHTML = 'Sextilis ';
+        break;
+		case 7: document.getElementById("seven").innerHTML = 'September ';
+        break;
+		case 8: document.getElementById("seven").innerHTML = 'October ';
+        break;
+		case 9: document.getElementById("seven").innerHTML = 'November ';
+        break;
+		case 10: document.getElementById("seven").innerHTML = 'December ';
+        break;
+		case 11: document.getElementById("seven").innerHTML = 'January ';
+        break;
+		case 12: document.getElementById("seven").innerHTML = 'February ';
+        break;
+		case 13: document.getElementById("seven").innerHTML = '13th Month ';
+        break;
 	}
 	
-	//possible switch
+	
+	
+	//document.getElementById("seven").innerHTML = 'new month: '+newmonth;
+	
+	newday=numofdays%28
+	document.getElementById("six").innerHTML =newday;
+	
+
 }

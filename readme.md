@@ -9,4 +9,4 @@ There is also the [International Fixed Calendar](https://en.wikipedia.org/wiki/I
 
 [Try it here](http://manuelvargas.me/13monthcalendarbirthdayconverter/)
 
-#:sunny: :thumbsup:
+# :sunny: :thumbsup:
